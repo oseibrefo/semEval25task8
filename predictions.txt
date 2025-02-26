@@ -1,0 +1,522 @@
+True
+True
+False
+False
+True
+True
+True
+False
+True
+Research Scientist
+Sales
+Single
+Life Sciences
+Travel_Frequently
+Female
+3
+Other
+37.4
+3
+10
+3468
+16
+8.0
+2
+3
+3
+[3, 4]
+[2090, 2909, 3468, 5130, 5993]
+[1, 2, 4]
+[23, 15, 12, 11, 11]
+[41, 49, 37, 33, 27]
+['Research Scientist', 'Laboratory Technician', 'Sales Executive']
+['Research & Development', 'Sales']
+['Single', 'Married']
+['Other', 'Medical', 'Life Sciences']
+['Travel_Rarely', 'Travel_Frequently']
+['No', 'Yes']
+[1, 2]
+[1, 2]
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+__INFERENCE_ERROR__: Object of type Timestamp is not JSON serializable
+No
+Yes
+No
+No
+No
+Yes
+No
+Request for Quotations
+Western and Central Africa
+Micronesia, Federated States of
+Goods
+Western and Central Africa
+Burkina Faso
+Agriculture, Fishing and Forestry;Industry, Trade and Services
+186884.26
+1
+5
+84993.68000000001
+754040.0
+80443.30299647106
+0
+[186884.26, 157840.9, 29907.75]
+Yes
+[754040.0, 999999.0, 879159.0, 879138.0, 879141.0]
+[2025]
+[424968.4]
+[157840.9, 186884.26]
+[186884.26, 157840.9, 29907.75, 26461.49]
+['Burkina Faso', 'Ghana', 'Micronesia, Federated States of']
+['Western and Central Africa', 'EAST ASIA AND PACIFIC']
+['Request for Quotations', 'Request for Bids', 'Individual Consultant Selection']
+['Ghana', 'World', 'Burkina Faso']
+[]
+[]
+True
+False
+No
+Yes
+No
+False
+Cant generate an answer
+True
+Attractions
+Attractions
+Cant generate an answer
+Cant generate an answer
+150
+Cant generate an answer
+Cant generate an answer
+5
+0
+1
+0
+1
+0
+0
+True
+5
+__INFERENCE_ERROR__: Error calling answer(data): maximum recursion depth exceeded
+[5, 0]
+[0, 0]
+[5, 5, 5, 5]
+[nan]
+['Attractions']
+[nan, 'Amusement and Theme Parks', 'Bars & Restaurants', 'Casinos & Gambling']
+['Amusement and Theme Parks', 'Bars & Restaurants', 'Casinos & Gambling', 'Attractions']
+['Attractions', 'Attractions', 'Attractions', 'Attractions']
+['150']
+['150']
+Yes
+Yes
+Yes
+Yes
+True
+No
+False
+False
+Cant generate an answer
+__INFERENCE_ERROR__: Error calling answer(data): malformed node or string on line 1: <ast.Name object at 0x00000292FA460760>
+__INFERENCE_ERROR__: Error calling answer(data): name 'ValueError' is not defined
+1
+Mercadona
+kiliweb
+3
+1
+3
+1
+4
+5
+1
+['00001522']
+['Seitán a la plancha']
+__INFERENCE_ERROR__: Could not execute code: name 'Vegetarian' is not defined
+__INFERENCE_ERROR__: Could not execute code: name 'Vegetarian' is not defined
+[]
+[]
+[]
+__INFERENCE_ERROR__: Error calling answer(data): name 'Spain' is not defined
+True
+True
+Yes
+True
+Cant generate an answer
+False
+True
+True
+Switzerland
+Singapore
+Barbados
+Switzerland
+Switzerland
+Singapore
+Barbados
+101.1
+46.5
+5
+86.9
+46.6
+72.1
+97.63999999999999
+3
+[46.5, 36.7, 39.2, 67.2, 19.0]
+[101.1, 85.0, 83.0, 76.7, 76.6]
+[158.7, 54.6, 120.3, 111.1, 43.5]
+[1, 3, 2]
+[97.0, 83.3, 86.8, 50.4, 69.4]
+[5, 2, 3, 4, 1]
+[111.1, 120.3, 54.6, 43.5, 158.7]
+['Switzerland', 'Bahamas', 'Iceland', 'Singapore', 'Barbados']
+['Switzerland', 'Iceland', 'Bahamas']
+['Barbados', 'Bahamas', 'Iceland']
+[]
+['Switzerland', 'Iceland', 'Singapore', 'Bahamas', 'Barbados']
+['Singapore', 'Barbados', 'Bahamas']
+Yes
+No
+True
+No
+No
+False
+Yes
+True
+4
+2
+4.5
+3.0
+2
+4.5
+4
+True
+337
+109.75
+2
+8.21
+4.5
+0.6442825467137845
+118
+0
+[337, 324, 322, 316, 314]
+0
+0
+[118, 110, 107, 104, 103]
+[8.0, 8.21, 8.67, 8.87, 9.65]
+[4.5, 4.0, 3.5, 3.0, 2.0]
+[4.5, 4.5, 3.5, 3.0, 2.5]
+[118, 110, 107, 104]
+[337]
+[8.21]
+[4, 4, 3, 2, 3]
+[3, 2, 3, 4, 4]
+[(4.5, 4.5), (3.5, 2.5), (4.0, 4.5), (3.0, 3.5)]
+[4.5, 3.5, 4.0, 3.0, 2.0]
+[3.5, 3.0, 2.5, 4.5, 4.5]
+False
+False
+True
+True
+Yes
+Yes
+No
+No
+False
+southeast
+male
+no
+southeast
+male
+True
+0
+southwest
+no
+33.77
+0.8
+3
+48911.26411
+18
+0
+1
+28.88
+[]
+[1725.5523, 4449.462, 3866.8552]
+[18, 32, 28, 19, 33]
+[18, 19]
+[]
+['southeast', 'southeast', 'northwest']
+True
+True
+False
+True
+False
+True
+Cant generate an answer
+True
+True
+66 kg
+59 kg
+Squat
+359
+4
+1
+4
+179
+269
+Emily Davis
+683
+269
+180
+1
+[359, 269, 235]
+[179, 221, 235, 269, 359]
+['66 kg', '59 kg', '105 kg', '74 kg', '83 kg']
+{}
+['Emily Davis']
+[359]
+['Jessica Wilson', 'John Doe', 'Emily Davis', 'Laura Taylor']
+['John Doe']
+['66 kg', '59 kg', '105 kg']
+Cant generate an answer
+['Deadlift', 'Squat', 'Bench Press']
+['Bench Press', 'Squat', 'Deadlift']
+No
+True
+False
+No
+True
+Yes
+False
+True
+HHS Region 01
+Heart disease
+Male
+Urban
+HHS Region 02
+Cant generate an answer
+0.6
+1
+853.7
+1.34
+88.75916053779656
+2
+111.70000000000002
+[226.8, 199.1, 188.2, 124.5, 115.1]
+[7, 9, 5, 8, 6]
+[188.2, 191.83333333333334, 283.5]
+[9, 5, 7]
+[7, 8, 5, 6, 9]
+['Heart disease']
+['HHS Region 01', 'HHS Region 02']
+['Urban', 'Rural']
+False
+False
+False
+False
+True
+True
+False
+No
+Kevin Durant
+Kevin Durant
+OKC
+Kevin Durant
+OKC
+LeBron James
+James Harden
+142
+2522
+2522
+16.05868358445678
+81
+551
+0
+0
+105
+[640, 610, 460]
+[551, 469, 455]
+[2280, 2133, 2036, 2023]
+[142, 129, 116]
+[105, 67, 38]
+['Carmelo Anthony', 'LeBron James', 'Kobe Bryant', 'James Harden', 'Kevin Durant']
+['Kevin Durant', 'LeBron James', 'Carmelo Anthony']
+['OKC', 'LAL', 'MIA', 'HOU', 'NYK']
+['OKC', 'MIA', 'NYK', 'LAL', 'HOU']
+['James Harden', 'LeBron James']
+['Kevin Durant', 'LeBron James', 'James Harden']
+['LeBron James', 'Kobe Bryant', 'James Harden', 'Kevin Durant']
+No
+Yes
+No
+Yes
+No
+No
+Yes
+5
+Yes
+0
+17
+145
+1
+17.6
+50
+1.4
+22.64
+5
+17
+5
+25
+2.978758130496667
+[165, 146, 145]
+[17]
+[]
+[49, 50]
+[0]
+[0]
+[165]
+[]
+[]
+No
+No
+True
+Yes
+No
+No
+False
+False
+False
+7
+5
+Cant generate an answer
+7
+Monday
+July
+7
+Monday
+18.0
+0.9
+0.0
+3
+62.6
+609.4
+1.848512915832616
+5
+[18.0, 14.6, 11.4]
+[77.5, 94.3, 102.2, 669.1, 686.9]
+[4, 5, 6]
+[33, 33, 51, 97]
+[6.7, 4.0, 1.8, 1.3, 0.9]
+[0.0, 0.0, 0.0]
+[26.2, 33.3, 35.4]
+['August', 'November']
+['Monday', 'Saturday', 'Wednesday']
+['August', 'November']
+['Saturday', 'Wednesday', 'Thursday']
+['August', 'November']
+['Monday', 'Thursday', 'Wednesday', 'Saturday']
+['Monday']
+No
+No
+False
+No
+No
+True
+Yes
+True
+Lower Manhattan
+Coffee
+Sun
+Hot chocolate
+Jan
+7
+Lower Manhattan
+Coffee
+2
+4
+29.4
+Yes
+3.1399999999999997
+5
+1
+9.0
+0
+[2, 2, 2]
+[5]
+[2.0, 3.0, 3.1, 3.1]
+[9.0, 6.2, 6.0]
+[7]
+['Lower Manhattan']
+[]
+['Brewed Chai tea', 'Gourmet brewed coffee', 'Hot chocolate']
+['Jan']
+['Sun']
+[5]
+['Hot chocolate', 'Brewed Chai tea']
+Ethiopia
+True
+True
+True
+True
+True
+False
+Yes
+Yes
+Sapiens A Brief History Of Humankind
+ Business, Investment and Economics
+Cant generate an answer
+0
+Benjamin Graham
+80
+BPB Publications (India)
+6.0
+Islamic Books
+8
+2222
+1
+19.4
+9.0
+498
+2
+2
+5
+[498, 640, 80, 512, 492]
+[498, 640, 80, 512, 492]
+[30.0, 39.0, 19.0, 6.0]
+[492]
+[4.0, 6.0, 21.0, 38.0, 18.0]
+[39.0, 30.0, 6.0, 19.0, 3.0]
+[498]
+Sapiens A Brief History Of Humankind
+['History and Tradition', ' Business, Investment and Economics', 'Islamic Books', 'Islamic Books', 'Computer Science & Engineering']
+Cant generate an answer
+['Madinah Arabic Reader 1']
+['History and Tradition', 'Business, Investment and Economics']
+['Yuval Noah Harari', 'Benjamin Graham']
+['History and Tradition', ' Business, Investment and Economics', 'Islamic Books', 'Islamic Books', 'Computer Science & Engineering']
+['8th Impression']
