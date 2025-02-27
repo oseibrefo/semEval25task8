@@ -45,7 +45,7 @@ def main():
     test_qa_path = normalize_path(f"{extracted_folder}/competition/test_qa.csv")
 
     if not os.path.exists(test_qa_path):
-        print(f"❌ ERROR: File not found! Expected at: {test_qa_path}")
+        print(f" ERROR: File not found! Expected at: {test_qa_path}")
         return  # Exit if file is missing
 
     # Load CSV into a list of dictionaries
@@ -100,13 +100,13 @@ def main():
                 predictions_lite[index] = "__INFERENCE_ERROR__: Lite dataset not found"
 
         except Exception as e:
-            print(f"❌ ERROR processing question '{question}': {e}")
+            print(f" ERROR processing question '{question}': {e}")
             predictions[index] = f"__INFERENCE_ERROR__: {str(e)}"
             predictions_lite[index] = f"__INFERENCE_ERROR__: {str(e)}"
 
     # Ensure predictions lists are exactly 522 answers
     if len(predictions) != TOTAL_QUESTIONS:
-        print(f"❌ ERROR: Only {len(predictions)} predictions found! Filling missing slots.")
+        print(f" ERROR: Only {len(predictions)} predictions found! Filling missing slots.")
         while len(predictions) < TOTAL_QUESTIONS:
             predictions.append("__INFERENCE_ERROR__: Missing Answer")
         while len(predictions_lite) < TOTAL_QUESTIONS:
@@ -115,18 +115,18 @@ def main():
     # Step 6: Save results
     with open("predictions.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(predictions))
-    print(f"✅ Saved {TOTAL_QUESTIONS} answers to predictions.txt")
+    print(f" Saved {TOTAL_QUESTIONS} answers to predictions.txt")
 
     with open("predictions_lite.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(predictions_lite))
-    print(f"✅ Saved {TOTAL_QUESTIONS} answers to predictions_lite.txt")
+    print(f" Saved {TOTAL_QUESTIONS} answers to predictions_lite.txt")
 
     # Step 7: Zip the predictions into 'archive.zip'
     with zipfile.ZipFile("archive.zip", "w") as zipf:
         zipf.write("predictions.txt")
         zipf.write("predictions_lite.txt")
 
-    print("✅ Created archive.zip with predictions.")
+    print("Created archive.zip with predictions.")
 
 
 if __name__ == "__main__":

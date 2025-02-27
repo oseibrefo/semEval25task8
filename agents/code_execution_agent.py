@@ -40,8 +40,8 @@ class ExecutionAgent:
             "pd": pd,  # Pandas support
             "str": str,
             "print": print,
-            "__import__": __import__,  # ✅ Allow explicit imports
-            "filter": filter,  # ✅ Allow filter function
+            "__import__": __import__,  # Allow explicit imports
+            "filter": filter,  # Allow filter function
             "eval": eval,
         }
 
@@ -80,13 +80,13 @@ class ExecutionAgent:
         - Returns a concise result.
         """
 
-        # 1️⃣ **Sanitize the generated code**
+        #  **Sanitize the generated code**
         cleaned_code = self.clean_code(response_code)
 
-        print("\n🔍 DEBUG: Generated Code AFTER Cleaning:\n", cleaned_code, "\n")  # Debug log
+        print("\n DEBUG: Generated Code AFTER Cleaning:\n", cleaned_code, "\n")  # Debug log
 
 
-        # ❌ Prevent executing non-Python strings like "python"
+        #  Prevent executing non-Python strings like "python"
         if "python" in cleaned_code.lower():
             return "__INFERENCE_ERROR__: Invalid code. Non-Python command detected."
 
@@ -98,24 +98,24 @@ class ExecutionAgent:
             print(f"🔍 DEBUG: Syntax Error Details: {e}")
             return f"__INFERENCE_ERROR__: Invalid syntax after fix: {e}"
 
-        # 2️⃣ **Setup execution environment**
+        #  **Setup execution environment**
         exec_globals = {"__builtins__": self.safe_builtins}  # Restrict execution
         exec_locals = {}
 
-        # 3️⃣ **Compile and execute the function**
+        #  **Compile and execute the function**
         try:
             compiled = compile(parsed, filename="<string>", mode="exec")
             exec(compiled, exec_globals, exec_locals)  # Execute safely
         except Exception as e:
             return f"__INFERENCE_ERROR__: Could not execute code: {e}"
 
-        # 4️⃣ **Find the answer() function**
+        #  **Find the answer() function**
         if "answer" not in exec_locals:
             return "__INFERENCE_ERROR__: No 'answer' function defined."
 
         answer_func = exec_locals["answer"]
 
-        # 5️⃣ **Call the generated function with the dataset**
+        #  **Call the generated function with the dataset**
         try:
             result = answer_func(data)
 
@@ -130,5 +130,5 @@ class ExecutionAgent:
         except Exception as e:
             return f"__INFERENCE_ERROR__: Error calling answer(data): {e}"
 
-        # 6️⃣ **Format the output for readability**
+        # **Format the output for readability**
         return str(result)  # Ensure everything is a string before returning

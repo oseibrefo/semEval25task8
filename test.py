@@ -1,10 +1,10 @@
 from openai import OpenAI
 import os
 import os
-from dotenv import load_dotenv  # ✅ Import dotenv
+from dotenv import load_dotenv  #  Import dotenv
 #from lang-chain.chat_models import ChatOpenAI
 from langchain_community.chat_models import ChatOpenAI
-# ✅ Load API Keys from .env File
+#  Load API Keys from .env File
 load_dotenv()
 
 print("DeepSeek API Key:", os.getenv("DEEP_SEEK_API_KEY"))
